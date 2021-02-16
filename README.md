@@ -41,3 +41,11 @@ hidden layer was added, with negligible differences in performance.
 
 ## Summary
 
+Given the relatively low accuracy measure of the deep learning model, it seems that a simpler supervised machine
+learning model with a logistic regression or Random Forest Classifier algorithm could have been used that 
+would've required less data preprocessing and would be less resource intensive from a computational standpoint
+than a deep learning model. It's also possible that additional data preprocessing could have yielded improved 
+results. The "ASK_AMT" could've been used as a categorical variable, rather than a wide range of unique numbers, 
+given that the vast majority of the ask amounts were for $5000. Changing that column to a categorical variable 
+with "Under $5000", "$5000", and over "$5000" may be a way to generate better results. It also may have improved
+the accuracy to include further data scaling. 
