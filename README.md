@@ -31,8 +31,13 @@ with one attempt using tanh for the output layer with slightly diminished accura
 	
 	- The model was not able to achieve the target model performance, though it came close, usually 
 achieving around 73% accuracy. 
+![Neural Network Accuracy](https://github.com/greensleeves8/Neural_Network_Charity_Analysis/blob/main/Resources/Accuracy_results.png "Neural Network Accuracy")
 
-
-	
+	- To attempt to increase the model performance, the following steps were taken: the "INCOME_AMT"
+was bucketed to move the companies with income above 5 million to above 50 million dollars into an other
+category, the number of epochs were increased from 100 to 150, the neurons in the input and hidden layer
+were increased, the output activation function was changed from sigmoid to tanh and back, and an additional
+hidden layer was added, with negligible differences in performance. 
 
 ## Summary
+
